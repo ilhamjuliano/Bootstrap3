@@ -7,9 +7,25 @@ body{
 	margin-bottom: 120px;
 }
 
+.jumbotron {
+	height: 380px;
+	background-image: url('../img/header-bg.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 0 -170px;
+	color: #eaeaea;
+	font-family: serif;
+	overflow: hidden;
+}
+
 .jumbotron img {
-	width: 200px;
-	border: 5px solid #666;
+	width: 140px;
+	border: 5px solid #eaeaea;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+
+.jumbotron h1, .jumbotron p {
+	text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
 }
 
 hr {
@@ -21,9 +37,35 @@ section {
 	min-height: 600px;
 }
 
+.pKiri, .pKanan {
+	opacity: 0;
+	transform: translate(-50px, 0) rotate(5deg);
+	transition: .5s;
+}
+
+.pKanan{
+	transform: translate(50px, 0);
+}
+
+.pKiri.pTampil, .pKanan.pTampil{
+	opacity: 1;
+	transform: translate(0, 0);
+}
+
 .portfolio {
 	min-height: 650px;
 	background-color: #eee;
+}
+
+.portfolio .thumbnail {
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: .5s;
+}
+
+.portfolio .thumbnail.tampil {
+	opacity: 1;
+	transform: translate(0, 0);
 }
 
 .contact {
