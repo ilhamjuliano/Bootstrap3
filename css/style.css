@@ -8,7 +8,7 @@ body{
 }
 
 .jumbotron {
-	height: 400px;
+	height: 415px;
 	background-image: url('../img/header-bg.jpg');
 	background-attachment: fixed;
 	background-size: cover;
@@ -19,7 +19,7 @@ body{
 }
 
 .jumbotron img {
-	width: 125px;
+	width: 135px;
 	border: 5px solid #EEEEEE;
 	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
 }
@@ -40,6 +40,7 @@ section {
 .about {
 	background-image: url('../img/1.png');
 	background-size: cover;
+	background-size: 100px 100px;
 	background-position: 0 -60px;
 }
 
