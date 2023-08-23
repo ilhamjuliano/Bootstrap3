@@ -37,13 +37,6 @@ section {
 	min-height: 600px;
 }
 
-.about {
-	background-image: url('../img/1.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 0 -60px;
-}
-
 .pKiri, .pKanan {
 	opacity: 0;
 	transform: translate(-50px, 0) rotate(1deg);
