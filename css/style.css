@@ -12,7 +12,7 @@ body{
 	background-image: url('../img/header-bg.jpg');
 	background-attachment: fixed;
 	background-size: cover;
-	//background-position: 0 -170px;
+	//background-position: 0 20px;
 	color: #EEEEEE;
 	font-family: serif;
 	overflow: hidden;
